@@ -33,6 +33,11 @@ inst-content {
 	display:none !important;
 }
 
+/* change button colour on hover */
+.cta-area .white-btn {
+    --pink: rgba(53, 164, 213, 1) !important;
+}
+
 /* hovering bit over image disabled */
 .phone-number.d-flex.position-absolute.mb-md-4.ms-md-n5.p-3.align-items-center
 {
