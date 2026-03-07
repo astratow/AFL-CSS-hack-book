@@ -1,1 +1,44 @@
+/* Hide broken / empty images */
+img[src=""],
+img:not([src]),
+img[src="#"],
+img[src*="placeholder"],
+img[src*="dummy"],
+img[src*="default"],
+img[src*="no-image"],
+img[src*="missing"]{
+    display:none !important;
+}
 
+/* Hide browser broken-image icon */
+img {
+    font-size:0 !important;
+}
+
+/*hiding unwanted elements in hero section */
+.student-badge.d-inline-block.position-absolute.mb-md-4.ms-md-n5.p-3 {
+	display: none !important;
+}
+
+/* hiding cart */
+.ac-cart {
+	display: none !important;
+}
+a.mcart_icon {
+	display: none !important;
+}
+
+/*floating box */
+inst-content {
+	display:none !important;
+}
+
+/* hovering bit over image disabled */
+.phone-number.d-flex.position-absolute.mb-md-4.ms-md-n5.p-3.align-items-center
+{
+	display: none !important;
+}
+/*subheading customization - changethe colour to your liking, can be coded in rgba() or hex*/
+body .elementor-widget-container .section-title>span {
+	background:rgba(53, 164, 213, 1) !important;
+}
