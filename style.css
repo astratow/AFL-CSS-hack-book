@@ -38,6 +38,12 @@ inst-content {
 {
 	display: none !important;
 }
+
+/* border removed */
+body .elementor-widget-container .bg-btn, body .elementor-widget-container .bg-btn:hover {
+	border: none !important;
+}
+
 /*subheading customization - changethe colour to your liking, can be coded in rgba() or hex*/
 body .elementor-widget-container .section-title>span {
 	background:rgba(53, 164, 213, 1) !important;
