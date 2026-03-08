@@ -38,6 +38,11 @@ inst-content {
     --pink: rgba(53, 164, 213, 1) !important;
 }
 
+/* remove hovering buttons */
+.elementor-element.elementor-element-1b1e4e5.e-con-full.e-flex.e-con.e-parent.e-lazyloaded .elementor-widget-container .cta-area .white-btn {
+    --pink: rgba(53, 164, 213, 1) !important;
+}
+
 /* hovering bit over image disabled */
 .phone-number.d-flex.position-absolute.mb-md-4.ms-md-n5.p-3.align-items-center
 {
