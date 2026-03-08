@@ -40,7 +40,7 @@ inst-content {
 
 /* remove hovering buttons */
 .elementor-element.elementor-element-1b1e4e5.e-con-full.e-flex.e-con.e-parent.e-lazyloaded .elementor-widget-container .cta-area .white-btn {
-    --pink: rgba(53, 164, 213, 1) !important;
+    display: none;
 }
 
 /* hovering bit over image disabled */
@@ -50,7 +50,10 @@ inst-content {
 }
 
 /* border removed */
-body .elementor-widget-container .bg-btn, body .elementor-widget-container .bg-btn:hover {
+body .elementor-widget-container .bg-btn,
+body .elementor-widget-container .white-btn,
+body .elementor-widget-container .bg-btn:hover, 
+body .elementor-widget-container .white-btn:hover {
 	border: none !important;
 }
 
