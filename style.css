@@ -57,6 +57,10 @@ body .elementor-widget-container .white-btn:hover {
 	border: none !important;
 }
 
+/* blob removal*/
+.rev_shape {
+	display: none !important;
+}
 /*subheading customization - changethe colour to your liking, can be coded in rgba() or hex*/
 body .elementor-widget-container .section-title>span {
 	background:rgba(53, 164, 213, 1) !important;
