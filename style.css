@@ -1,67 +1,38 @@
-/* Hide broken / empty images */
-img[src=""],
-img:not([src]),
-img[src="#"],
-img[src*="placeholder"],
-img[src*="dummy"],
-img[src*="default"],
-img[src*="no-image"],
-img[src*="missing"]{
-    display:none !important;
-}
-
-/* Hide browser broken-image icon */
-img {
-    font-size:0 !important;
-}
-
-/*hiding unwanted elements in hero section */
-.student-badge.d-inline-block.position-absolute.mb-md-4.ms-md-n5.p-3 {
+.abb_inner.p-3 {
 	display: none !important;
 }
 
-/* hiding cart */
-.ac-cart {
-	display: none !important;
-}
-a.mcart_icon {
-	display: none !important;
-}
-
-/*floating box */
-.ins-content {
-	display:none !important;
-}
-
-/* change button colour on hover */
-.cta-area .white-btn {
-    --pink: rgba(53, 164, 213, 1) !important;
-}
-
-/* remove hovering buttons */
-.elementor-element.elementor-element-1b1e4e5.e-con-full.e-flex.e-con.e-parent.e-lazyloaded .elementor-widget-container .cta-area .white-btn {
-    display: none;
-}
-
-/* hovering bit over image disabled */
-.phone-number.d-flex.position-absolute.mb-md-4.ms-md-n5.p-3.align-items-center
-{
+/* button delete */
+.elementor-element-05515c2 span,
+.elementor-element-fa801db span,
+.elementor-element-2aaec99 span, 
+.elementor-element-21b261b span,
+.elementor-element-05515c2 span,
+.elementor-element-b676a31 span,
+.elementor-element-86e03d5 span,
+.elementor-element-97ea555 span.bsubtitle,
+.elementor-element-2cf49a3e span,
+.elementor-element-7c6eca7b span,
+.elementor-element-6f36b70 span,
+.elementor-element-d2610e5 span,
+.elementor-element-21a2213 span,
+.elementor-element-c3cf973 span,
+.elementor-element-48fcfddb span,
+.elementor-element-9573d93 span,
+.elementor-element-10376ab span,
+.rrating {
 	display: none !important;
 }
 
-/* border removed */
-body .elementor-widget-container .bg-btn,
-body .elementor-widget-container .white-btn,
-body .elementor-widget-container .bg-btn:hover, 
-body .elementor-widget-container .white-btn:hover {
-	border: none !important;
+/* additional pound character */
+
+.elementor-element-10376ab .col-lg-3.col-md-6.col-12.wow.fadeInUp:nth-of-type(3) .counter-item span.count::before {
+  content: "£";
 }
 
-/* blob removal*/
-.rev_shape {
-	display: none !important;
-}
-/*subheading customization - changethe colour to your liking, can be coded in rgba() or hex*/
-body .elementor-widget-container .section-title>span {
-	background:rgba(53, 164, 213, 1) !important;
+/* extra white space remove */
+
+.elementor-element-0612a98,
+.elementor-element-3e7a02c {
+	display: none;
 }
